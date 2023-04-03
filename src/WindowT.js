@@ -1,3 +1,10 @@
+// when it is toggle off, it is compeletely removed from the dom, when i
+// click it back on, it is remounted and therefore it will run this window.innerWidth, which gives
+// me the updated version of window width
+// Because it is an event on the window, we cant do this:
+//<h1 onResize={ }>Window width : {window.innerWidth}</h1>
+
+
 import React from "react"
 
 export default function WindowTracker() {
