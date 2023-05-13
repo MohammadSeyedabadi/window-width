@@ -5,7 +5,7 @@
 //<h1 onResize={ }>Window width : {window.innerWidth}</h1>
 
 
-
+import React from "react"
 
 export default function WindowTracker() {
     
